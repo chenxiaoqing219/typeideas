@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/typeideas/blog" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/typeideas/comment" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/typeideas/config" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/typeideas/typeideas" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

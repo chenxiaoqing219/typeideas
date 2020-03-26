@@ -2,15 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7f3c55-0db3-4cb4-b8bf-296dafcdb86f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeideas/blog/adminforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeideas/typeideas/base_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeideas/typeideas/custom_site.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/typeidea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/typeidea.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeideas/typeideas/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/typeideas/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeideas/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeideas/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeideas/comment/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/comment/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeideas/comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/comment/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeideas/config/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/config/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeideas/config/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/config/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeideas/typeideas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/typeideas/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
