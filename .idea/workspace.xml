@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7f3c55-0db3-4cb4-b8bf-296dafcdb86f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/typeideas/blog/adminforms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/typeideas/typeideas/base_admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/typeideas/typeideas/custom_site.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/typeidea.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/typeidea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeideas/typeideas/templates/blog/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typeideas/typeideas/templates/blog/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeideas/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/blog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeideas/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeideas/comment/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/comment/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeideas/comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/comment/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typeideas/config/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/config/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeideas/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeideas/config/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/config/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeideas/config/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/config/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typeideas/typeideas/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/typeideas/settings/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typeideas/typeideas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/typeideas/typeideas/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,20 +21,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1ZbyindFlLY5OTm0HZo5GmeAX1V" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -77,14 +79,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1069" y="215" key="#Inspections" timestamp="1585133920062">
+    <state x="1069" y="215" key="#Inspections" timestamp="1585288156483">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="1069" y="215" key="#Inspections/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1585133920061" />
+    <state x="1069" y="215" key="#Inspections/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1585288156483" />
     <state x="931" y="212" width="1089" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585126036841">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="931" y="212" width="1089" height="711" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1585126036841" />
+    <state x="1136" y="150" key="CommitChangelistDialog2" timestamp="1585231588849">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1136" y="150" key="CommitChangelistDialog2/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1585231588849" />
     <state x="1256" y="323" key="FileChooserDialogImpl" timestamp="1585126033266">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -93,6 +99,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="978" y="199" key="SettingsEditor/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1585133771114" />
+    <state x="1290" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585317123089">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="1290" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.1536.824/0.0.2048.1112@0.0.2048.1112" timestamp="1585317123089" />
     <state x="1139" y="247" width="672" height="678" key="search.everywhere.popup" timestamp="1585126240503">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
