@@ -2,7 +2,7 @@ from django.db.models import Q
 from django.shortcuts import render
 from django.shortcuts import get_object_or_404
 
-from typeideas.config.models import SideBar
+from config.models import SideBar
 from django.views.generic import DetailView, ListView
 
 from .models import Post, Tag, Category
