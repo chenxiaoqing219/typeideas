@@ -55,9 +55,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'typeideas.urls'
 
-THEME = 'bootstrap'
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
+THEME = 'bootstrap'
 
 STATIC_ROOT = '/tmp/static'
 
