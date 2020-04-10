@@ -20,14 +20,16 @@ from blog.views import (
     IndexView, CategoryView, TagView, PostDetailView, SearchView, AuthorView
 )
 from config.views import LinkListView
+from comment.views import CommentView
 from .custom_site import custom_site
 
 urlpatterns = [
-    path('', IndexView.as_view(), name='index'),
+    re_path(r'^$', IndexView.as_view(), name='index'),
     path('super_admin/', admin.site.urls, name='super-admin'),
     path('admin/', custom_site.urls, name='admin'),
     path('search/', SearchView.as_view(), name='search'),
     path('links/', LinkListView.as_view(), name='links'),
+    path('comment/', CommentView.as_view(), name='comment'),
 
     re_path('category/(?P<category_id>\d+)/$',  CategoryView.as_view(), name='category-list'),
     re_path('tag/(?P<tag_id>\d+)/$', TagView.as_view(), name='tag-list'),

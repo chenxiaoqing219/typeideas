@@ -10,7 +10,7 @@ class CommentForm(forms.ModelForm):
             attrs={'class': 'form-control', 'style': "width: 60%;"}
         )
     )
-    email = forms.widgets.EmailInput(
+    email = forms.CharField(
         label='Email',
         max_length=50,
         widget=forms.widgets.EmailInput(

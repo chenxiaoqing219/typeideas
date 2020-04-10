@@ -1,6 +1,6 @@
 from django.views.generic import ListView
 
-from typeideas.blog.views import CommonViewMixin
+from blog.views import CommonViewMixin
 from .models import Link
 
 class LinkListView(CommonViewMixin, ListView):
